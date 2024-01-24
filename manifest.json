@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Shorts Control",
+  "version": "1.1",
+  "description": "Gives more control over YouTube Shorts videos.",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": {
+      "16": "src/assets/icon16.png",
+      "48": "src/assets/icon48.png",
+      "128": "src/assets/icon128.png"
+    },
+    "default_title": "YouTube Shorts Control",
+    "default_popup": "src/popUp.html"
+  },
+  "icons": {
+    "16": "src/assets/icon16.png",
+    "48": "src/assets/icon48.png",
+    "128": "src/assets/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/shorts/*"],
+      "js": ["src/content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
