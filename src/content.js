@@ -1,10 +1,10 @@
 function addCustomButton() {
-    console.log("YouTube Shorts Control loaded!");
-
     var actionsDiv = document.querySelector(".navigation-container");
 
     if (actionsDiv) {
         clearInterval(checkExistenceInterval);
+        
+        console.log("YouTube Shorts Control successfully loaded!");
 
         // to fit custom button with other buttons
         actionsDiv.style.justifyContent = "flex-end";
@@ -34,4 +34,4 @@ function addCustomButton() {
 }
 
 // check if the navigation container already exists
-var checkExistenceInterval = setInterval(addCustomButton, 1000);
+var checkExistenceInterval = setInterval(addCustomButton, 5000);

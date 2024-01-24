@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "YouTube Shorts Control",
-  "version": "1.1",
+  "version": "1.2",
   "description": "Gives more control over YouTube Shorts videos.",
   "permissions": ["activeTab"],
   "browser_action": {
@@ -20,7 +20,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://www.youtube.com/shorts/*"],
+      "matches": ["*://www.youtube.com/*"],
       "js": ["src/content.js"],
       "css": ["src/content.css"],
       "run_at": "document_start"
