@@ -1,18 +1,37 @@
-var actionsDiv = document.querySelector(".navigation-container");
+function addCustomButton() {
+    console.log("YouTube Shorts Control loaded!");
 
-if (actionsDiv) {
-    var newButton = document.createElement("button");
-    newButton.innerHTML = "Nowy Przycisk";
+    var actionsDiv = document.querySelector(".navigation-container");
 
-    actionsDiv.appendChild(newButton);
+    if (actionsDiv) {
+        clearInterval(checkExistenceInterval);
 
-    newButton.addEventListener("click", function () {
-        var currentUrl = window.location.href;
+        // to fit custom button with other buttons
+        actionsDiv.style.justifyContent = "flex-end";
+        let buttons = actionsDiv.querySelectorAll(".navigation-button.ytd-shorts");
+        buttons.forEach(button => {
+            button.style.padding = "8px 16px";
+        });
 
-        if (currentUrl.includes("shorts/")) {
-            var newUrl = currentUrl.replace("shorts/", "watch?v");
+        // create custom button
+        var newButton = document.createElement("button");
+        newButton.className = "yt-shorts-control";
+        newButton.innerHTML = "Open as video";
 
-            window.location.href = newUrl;
-        }
-    });
+        actionsDiv.appendChild(newButton);
+
+        // add event listener
+        newButton.addEventListener("click", function () {
+            var currentUrl = window.location.href;
+
+            if (currentUrl.includes("shorts/")) {
+                var newUrl = currentUrl.replace("shorts/", "watch?v=");
+
+                window.location.href = newUrl;
+            }
+        });
+    }
 }
+
+// check if the navigation container already exists
+var checkExistenceInterval = setInterval(addCustomButton, 1000);
