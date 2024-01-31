@@ -23,7 +23,7 @@ YouTube Shorts Control is a browser extension that enhances your YouTube Shorts 
 4. Enable "Developer mode" in the top right corner.
 5. Click on "Load unpacked" and select the folder where you extracted the ZIP file.
 
-## How to Use
+## How to use
 
 1. Visit a YouTube Shorts page.
 2. Look for the "Open as video" button added to the page.
