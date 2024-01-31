@@ -17,7 +17,7 @@ YouTube Shorts Control is a browser extension that enhances your YouTube Shorts 
 
 ## Installation
 
-1. [Download the extension ZIP file](https://github.com/numbersanalyst/yt-shorts-control/archive/refs/heads/main.zip)
+1. [Download the extension ZIP file](https://github.com/numbersanalyst/yt-shorts-control/archive/refs/heads/main.zip).
 2. Extract the ZIP file to a location of your choice.
 3. Open your Chrome browser and go to `chrome://extensions/`.
 4. Enable "Developer mode" in the top right corner.
@@ -40,4 +40,3 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 ## Disclaimer
 
 This extension is not affiliated with or endorsed by YouTube. Use it at your own risk.
-
