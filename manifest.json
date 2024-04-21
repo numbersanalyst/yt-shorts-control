@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "YouTube Shorts Control",
-  "version": "1.2",
-  "description": "Gives more control over YouTube Shorts videos.",
+  "version": "2.0",
+  "description": "Gives you more control over YouTube Shorts videos.",
   "permissions": ["activeTab"],
   "browser_action": {
     "default_icon": {

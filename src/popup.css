@@ -1,34 +1,30 @@
 body {
-    width: 250px;
+    width: 240px;
     padding: 10px;
-    font-family: 'Arial', sans-serif;
+    font-family: "Calibri", "Arial", sans-serif;
+    font-size: 14px;
     background-color: rgb(25, 25, 25);
     color: white;
-}
-
-.popup-container {
     text-align: center;
 }
 
 h1 {
-    color: #007bff;
+    color: #70bfff;
+    font-size: 30px;
 }
 
-p {
-    margin-top: 10px;
+hr {
+    margin-bottom: 25px;
 }
 
-button {
-    padding: 10px 90px;
-    margin-top: 10px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 14px;
+span {
+    color: #cacaca;
 }
 
-button:hover {
-    background-color: #0056b3;
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    color: rgb(170, 170, 170)
 }
