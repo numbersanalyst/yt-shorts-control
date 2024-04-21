@@ -1,11 +1,12 @@
 # YouTube Shorts Control
 
-YouTube Shorts Control is a browser extension that enhances your YouTube Shorts experience by adding a custom button to easily switch to the full video view.
+YouTube Shorts Control is a usefull browser extension that enhances your YouTube Shorts experience by adding a custom button to easily switch to the full video view. This way, you can watch Shorts like regular YouTube videos (use video progress bar, speed control etc.). 
 
 ## Features
 
 - Adds a "Open as video" button to YouTube Shorts pages.
-- Clicking the button redirects you to the full video view by modifying the URL.
+- Clicking the button redirects to the full video view, pausing the video on the current page and opening the video in a new tab for a seamless experience.
+- Gives you more control over the video you watch.
 
 ## Screenshots
 
@@ -13,7 +14,7 @@ YouTube Shorts Control is a browser extension that enhances your YouTube Shorts 
 *The "Open as video" button displayed on a YouTube Shorts page.*
 
 ![Video](demo/video.png)
-*The result after clicking the "Open as video" button.*
+*After clicking the "Open as video" button, you can watch Shorts as a regular video.*
 
 ## Installation
 
@@ -26,8 +27,8 @@ YouTube Shorts Control is a browser extension that enhances your YouTube Shorts 
 ## How to use
 
 1. Visit a YouTube Shorts page.
-2. Look for the "Open as video" button added to the page.
-3. Click the button to switch to the full video view.
+2. After the page loads, you should see the "Open as video" button added to the page.
+3. Click the button to switch to the full video view in a new tab.
 
 ## License
 
@@ -39,4 +40,4 @@ Contributions are welcome! Feel free to submit issues or pull requests.
 
 ## Disclaimer
 
-This extension is not affiliated with or endorsed by YouTube. Use it at your own risk.
+This extension is an independent project created to enhance the YouTube Shorts experience. It is not affiliated with or endorsed by YouTube. Use it at your own risk.
