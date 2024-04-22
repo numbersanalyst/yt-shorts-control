@@ -1,9 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
+const checkExist = setInterval(() => {
     const actionsDiv = document.querySelector(".navigation-container");
 
     if (actionsDiv) {
         // log success
         console.log("YouTube Shorts Control successfully loaded!");
+        clearInterval(checkExist);
 
         // to fit custom button with other buttons
         actionsDiv.style.justifyContent = "flex-end";
@@ -32,4 +33,4 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
-})
+}, 5000)
